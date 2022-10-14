@@ -1,0 +1,65 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PIWCDENVER</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/piwcdenver.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="leadership.html">LEADERSHIP</a></li>
+                    <li><a href="ministries.html">MINISTRIES</a></li>
+                    <li><a href="infocenter.html">INFO CENTER</a></li>
+                    <li><a href="sermons.html">SERMONS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="giveonline.html">GIVE ONLINE</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>Leadership</h1>
+    </section>
+    
+    
+<!------- about us content -------->
+    
+
+    
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>The Church of Pentecost is a Bible-believing, Holy Spirit, People and Relationship oriented church. <br> It is a part of The Church of Pentecost in Ghana.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/PIWCDENVER/"></a><i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>made with <i class="fa fa-heart-o"></i> by PIWCDENVER.org</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
